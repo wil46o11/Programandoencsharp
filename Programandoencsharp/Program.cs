@@ -27,10 +27,14 @@ namespace Programandoencsharp
 
             //---Proceso de datos---
             suma = a + b;
-
+            
             //Salida de datos
             Console.WriteLine("La suma es: "+suma);
             Console.WriteLine($"La suma de {a} + {b} = {suma}");
+
+            //vincula ejercicio usando metodo
+            E1secuencial EJ1 = new E1secuencial();
+            EJ1.areatriangulo();
 
 
             //Pausar par mostrar Resultados
